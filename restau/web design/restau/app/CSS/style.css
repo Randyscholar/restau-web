@@ -1,0 +1,70 @@
+*body{font-size: 62.5%;
+    margin: 0;
+    background-image: url("./restau/app/img/lunch.jpg");
+}
+ul{ 
+    background-image: url("../restau/app/img/images.jpg") ; 
+    background-color: black;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    width: 100%;
+    margin:0;
+    padding:0;
+    height: 400px;
+}
+        .logo a{
+    background-image: url("../restau/app/img/logo.jpg");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 60px;
+    position: relative;
+    text-indent: -99999999px;
+    top: -10px;
+    width:60px ;
+    text-align: center;
+    }
+
+li{
+    float: left;
+}
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+    margin:20 20px 20px 4px;
+    font-size: x-large;
+    
+}
+li a:hover{
+    background-color: rgba(67, 106, 212, 0.377);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:origin 15px;
+    text-transform:uppercase;
+}
+li a:active{
+    background-color: rgb(41, 82, 78);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+h1{
+  font-size:5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+ .photo{
+    display: flex;
+    margin: auto;
+    
+}
+hr{
+    text-align: center;
+}
+.img{
+    box-shadow:10px 10px 10px 0px grey;
+    border-radius:0.5%;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+*body{font-size: 62.5%;
+    margin: 0;
+}
+ul{ background-color: black;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+li{
+    float: left;
+    height: 10vh;
+}
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+    margin:0 2px 0px 4px;
+    font-size: x-large;
+}
+li a:hover{
+    background-color: rgba(67, 106, 212, 0.377);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:origin 15px;
+    text-transform:uppercase;
+}
+li a:.active{
+    background-color: rgb(41, 82, 78);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

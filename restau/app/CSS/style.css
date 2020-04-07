@@ -1,0 +1,107 @@
+body{font-size: 62.5%;
+    margin: 0;
+    background-color: rgb(194, 181, 163);
+}
+ul{ 
+    background-image: url("./app/img/lunch.jpg");
+    background-color: black;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    height: 400px;
+}
+li{
+    float: left;
+    height: 10vh;
+}
+li a{
+    background-attachment: fixed;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+    margin:20px;
+    font-size: 20px;
+    
+}
+li a:hover{
+    background-color: rgba(67, 106, 212, 0.377);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:origin 15px;
+    text-transform:uppercase;
+}
+li a:active{
+    background-color: rgb(41, 82, 78);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.logo a{
+    background-image: url("restau/app/img/logo.jpg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 80px;
+    position: relative;
+    text-indent: -99999999px;
+    top: -30px;
+    width:300px ;
+    }
+h1{
+  
+  margin: auto;
+  color: aliceblue;
+  font-size:5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+ .photo{
+    display: flex;
+    margin: auto;
+    image-orientation: from-image;
+    
+}
+hr{
+    text-align: center;
+}
+.img{
+    box-shadow:0px 0px 00px 0px grey;
+    border-radius:00%;
+    text-align: center;
+    border: 5px rgb(39, 12, 12);
+    padding: 30px;
+    margin: auto;
+}
+figcaption{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serifs;
+    text-align: center;
+}
+.text{
+    display: flex;
+   float:center;
+}
+h2{
+    font-style: italicss;
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(238, 234, 226);
+}
+p{
+    font-style: italic;
+    font-size: 20px;
+    padding: 30px;
+    color: floralwhite;
+}
+#copyright{
+    background-color: black;
+    height: 2vh;
+    color: aliceblue;
+    ;
+    text-align: center;
+    font-family: cursive;
+    font-style: normal;
+    font-size: 15px;
+    background-attachment: fixed;
+}

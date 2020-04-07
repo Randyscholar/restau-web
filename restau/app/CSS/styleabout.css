@@ -1,0 +1,75 @@
+body{font-size: 62.5%;
+    margin: 0;
+      background-color: rgb(194, 181, 163);
+}
+
+ul{ 
+    background-image: url("./app/img/lunch.jpg");
+    background-color: black;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    height: 400px;
+}
+li{
+    float: left;
+    height: 10vh;
+}
+li a{
+    background-attachment: fixed;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+    margin:20px;
+    font-size: 20px;
+    
+}
+li a:hover{
+    background-color: rgba(67, 106, 212, 0.377);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:origin 15px;
+    text-transform:uppercase;
+}
+li a:active{
+    background-color: rgb(41, 82, 78);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+h1{
+    background-color: rgb(86, 73, 110);
+    margin: auto;
+    color: aliceblue;
+    font-size:5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;}
+    h2{
+        font-style: italicss;
+        padding: 20px;
+        font-size: 30px;
+        color: rgb(238, 234, 226);
+        
+    }
+    p{
+        font-style: italic;
+        font-size: 20px;
+        padding: 30px;
+    }
+    #copyright{
+        background-color: black;
+        height: 2vh;
+        color: aliceblue;
+        ;
+        text-align: center;
+        font-family: cursive;
+        font-style: normal;
+        font-size: 15px;
+        background-attachment: fixed;
+    }
+figcaption{
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serifs;
+        text-align: left;
+    }
